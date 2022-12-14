@@ -1,0 +1,44 @@
+
+
+.firstview_text {
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 100px;
+  background-image: url(../img/siteimg/firstview.jpg);
+  background-size: cover;
+  line-height: 300px;
+}
+
+h2 {
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}
+
+.about_text {
+  text-align: center;
+}
+
+strong {
+  font-weight: bolder;
+}
+
+.blog_card {
+  display: flex;
+  width: 80%;
+  margin: 10px auto;
+}
+.card {
+  padding: 20px 30px 20px 30px;
+}
+.card_img {
+  width: 100%;
+}
+.card_text {
+  padding: 15px 25px;
+}
+
+.form {
+  display: inline-block;
+}
