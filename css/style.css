@@ -40,5 +40,58 @@ strong {
 }
 
 .form {
-  display: inline-block;
+  margin: 0 10% 0 10%;
+}
+
+.form_table {
+  max-width: 780px;
+  margin: 0 auto 70px;
+  width: 100%;
+}
+
+.form_table tr {
+  margin-bottom: 20px;
+}
+
+.form_table th {
+  text-align: left;
+  padding: 0;
+}
+
+.form_table input {
+  width: 100%;
+  margin: 10px 0;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.form_table select {
+  margin: 10px 0;
+  
+}
+
+.form_table textarea {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.form_btn {
+  text-align: center;
+}
+
+.form_table .form_btn-submit {
+  width: 200px;
+  padding: 10px 0;
+  border: 0;
+  background: #55bbbb;
+  color: #fff;
+}
+
+.form_table .form_btn-reset {
+  width: 200px;
+  padding: 10px 0;
+  background-color: #ddd;
+  color: #000;
+  margin-right: 20px;
 }
